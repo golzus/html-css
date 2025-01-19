@@ -1,0 +1,20 @@
+body{
+    display: flex;
+justify-content: center;
+align-content: center;
+background-color: rgba(5, 4, 4, 0.877);
+color: var(--COLOR2);
+}
+body:hover{
+    transform: scale(1.5);
+transition-duration: 2s;
+animation: growing 2s ease-in-out 0.2s 1 normal forwards;
+}
+
+@keyframes growing{
+   0%{transform: scale(1);}
+   50%{transform: scale(1.1);}
+   100%{transform: scale(1);}
+
+
+}

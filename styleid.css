@@ -1,0 +1,74 @@
+body {
+    justify-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.lable {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    background-image: url(img/garin.jpg);
+    background-size: cover;
+    color: rgb(237, 237, 230);
+    align-items: center;
+    justify-content: center;
+}
+
+input,
+textarea,
+.send p {
+    background-color: rgba(245, 241, 240, 0.418);
+    border-radius: 33px;
+    border: solid 5px;
+    border-color: rgba(237, 229, 223, 0.276);
+    height: 20px;
+    width: 50%;
+    justify-content: space-between;
+    align-content: center;
+    color: rgb(74, 32, 8);
+    text-align: center;
+}
+
+#לרעיון {
+height:100px;
+
+}
+
+.send {
+    display: flex;
+    flex-direction: row;
+    align-items:  flex-end;
+    justify-content: center;
+    background-image: url(idea.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    margin: 0;
+    padding: 0;
+    gap: 60%;
+}
+
+.send p {
+    border-color: rgba(74, 32, 8, 0.829);
+    width: 60px;
+    height: 20px;
+}
+
+@media only screen and (min-width:768px) {
+    body {
+        display: flex;
+        min-width: 100vw;
+    }
+
+    .lable,
+    .send {
+        width: 50vw;
+        height: 100vh;
+    }
+    
+
+}
